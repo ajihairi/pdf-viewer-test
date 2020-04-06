@@ -10,5 +10,5 @@
 * insert image on above of pdf file
 * drag image inside pdf file current page
 
-** HOW TO USE **
-
+** App preview **
+![til](.Resource/ezgif.com-gif-maker.gif)
