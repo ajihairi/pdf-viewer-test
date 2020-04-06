@@ -11,4 +11,4 @@
 * drag image inside pdf file current page
 
 ** App preview **
-![Application Demo](appdemo-gif-maker.mov)
+![Application Demo](appdemo-gif-maker.gif)
