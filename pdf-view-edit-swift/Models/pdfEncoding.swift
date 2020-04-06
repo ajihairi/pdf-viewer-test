@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct pdfEncoding: Codable {
+    var status: Int?
+    var data: [filesData]?
+}
+
+struct filesData: Codable {
+    var file: String?
+    var name: String?
+}

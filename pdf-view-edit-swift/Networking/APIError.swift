@@ -1,9 +1,9 @@
 //
 //  APIError.swift
-//  StopApp
+//  pdf-view-edit-swift
 //
-//  Created by Agus Cahyono on 12/08/18.
-//  Copyright © 2018 Agus Cahyono. All rights reserved.
+//  Created by Hamzhya Salsatinnov Hairy on 06/04/20.
+//  Copyright © 2020 Hamzhya Salsatinnov Hairy. All rights reserved.
 //
 
 import Foundation

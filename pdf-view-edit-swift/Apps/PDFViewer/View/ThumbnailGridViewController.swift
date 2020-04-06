@@ -1,10 +1,10 @@
 //
 //  ThumbnailGridViewController.swift
-//  PDF-Demo
+//  pdf-view-edit-swift
 //
-//  Created by lan on 2017/7/5.
-//  Copyright © 2017年 com.tzshlyt.demo. All rights reserved.
-//
+//  Created by Hamzhya Salsatinnov Hairy on 06/04/20.
+//  Copyright © 2020 Hamzhya Salsatinnov Hairy. All rights reserved.
+//opyright © 2017年 com.tzshlyt.demo. All rights reserved.
 
 import UIKit
 import PDFKit

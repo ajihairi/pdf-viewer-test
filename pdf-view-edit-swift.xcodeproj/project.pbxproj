@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217A437C76342F28A388ADF1 /* Pods_pdf_view_edit_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623F548B331E5172A9A91373 /* Pods_pdf_view_edit_swiftTests.framework */; };
 		FB2B56BE243AC20A0038CB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B56BD243AC20A0038CB41 /* AppDelegate.swift */; };
 		FB2B56C0243AC20A0038CB41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B56BF243AC20A0038CB41 /* SceneDelegate.swift */; };
 		FB2B56C2243AC20A0038CB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B56C1243AC20A0038CB41 /* ViewController.swift */; };
@@ -14,6 +15,45 @@
 		FB2B56C7243AC20B0038CB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2B56C6243AC20B0038CB41 /* Assets.xcassets */; };
 		FB2B56CA243AC20B0038CB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2B56C8243AC20B0038CB41 /* LaunchScreen.storyboard */; };
 		FB2B56D5243AC20B0038CB41 /* pdf_view_edit_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B56D4243AC20B0038CB41 /* pdf_view_edit_swiftTests.swift */; };
+		FBB630B7243AE2E90080B04F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630B4243AE2E90080B04F /* APIManager.swift */; };
+		FBB630B8243AE2E90080B04F /* APISuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630B5243AE2E90080B04F /* APISuccess.swift */; };
+		FBB630B9243AE2E90080B04F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630B6243AE2E90080B04F /* APIError.swift */; };
+		FBB630BE243AE35D0080B04F /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630BD243AE35D0080B04F /* Reach.swift */; };
+		FBB630C0243AE3630080B04F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630BF243AE3630080B04F /* BaseViewController.swift */; };
+		FBB630C9243AE39B0080B04F /* GSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C2243AE39A0080B04F /* GSTextField.swift */; };
+		FBB630CA243AE39B0080B04F /* GSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C3243AE39A0080B04F /* GSImageView.swift */; };
+		FBB630CB243AE39B0080B04F /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C4243AE39A0080B04F /* DismissButton.swift */; };
+		FBB630CC243AE39B0080B04F /* SGSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C5243AE39A0080B04F /* SGSnackBar.swift */; };
+		FBB630CD243AE39B0080B04F /* GSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C6243AE39B0080B04F /* GSView.swift */; };
+		FBB630CE243AE39B0080B04F /* BXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C7243AE39B0080B04F /* BXButton.swift */; };
+		FBB630CF243AE39B0080B04F /* DFSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630C8243AE39B0080B04F /* DFSafariViewController.swift */; };
+		FBB630D7243AE3C80080B04F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630D1243AE3C70080B04F /* UIColor+Extensions.swift */; };
+		FBB630D8243AE3C80080B04F /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630D2243AE3C70080B04F /* UINavigationController+Extensions.swift */; };
+		FBB630D9243AE3C80080B04F /* CAGradientLayer +Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630D3243AE3C70080B04F /* CAGradientLayer +Extensions.swift */; };
+		FBB630DB243AE3C80080B04F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630D5243AE3C70080B04F /* String+Extension.swift */; };
+		FBB630DC243AE3C80080B04F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630D6243AE3C70080B04F /* UIViewController+Extension.swift */; };
+		FBB630DF243AEF8A0080B04F /* pdfEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630DE243AEF8A0080B04F /* pdfEncoding.swift */; };
+		FBB630E4243AF28B0080B04F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630E3243AF28B0080B04F /* HomeViewController.swift */; };
+		FBB630E7243AF2B40080B04F /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630E6243AF2B40080B04F /* AppServices.swift */; };
+		FBB630E9243AF2BF0080B04F /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630E8243AF2BF0080B04F /* ServiceProtocol.swift */; };
+		FBB630EC243AF5F30080B04F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630EB243AF5F30080B04F /* ViewModel.swift */; };
+		FBB630F0243AFA950080B04F /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630EE243AFA950080B04F /* HomeCell.swift */; };
+		FBB630F1243AFA950080B04F /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB630EF243AFA950080B04F /* HomeCell.xib */; };
+		FBB630F7243B0C720080B04F /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630F6243B0C720080B04F /* PDFViewController.swift */; };
+		FBB63107243B0EC50080B04F /* SearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB630FA243B0EC30080B04F /* SearchViewCell.xib */; };
+		FBB63108243B0EC50080B04F /* OulineTableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630FB243B0EC30080B04F /* OulineTableviewController.swift */; };
+		FBB63109243B0EC50080B04F /* OulineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB630FC243B0EC30080B04F /* OulineTableViewCell.swift */; };
+		FBB6310B243B0EC50080B04F /* OulineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB630FE243B0EC30080B04F /* OulineTableViewCell.xib */; };
+		FBB6310C243B0EC50080B04F /* OulineTableviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB630FF243B0EC40080B04F /* OulineTableviewController.xib */; };
+		FBB6310D243B0EC50080B04F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63100243B0EC40080B04F /* SearchTableViewController.swift */; };
+		FBB6310E243B0EC50080B04F /* ThumbnailGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63101243B0EC40080B04F /* ThumbnailGridViewController.swift */; };
+		FBB6310F243B0EC50080B04F /* ThumbnailGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB63102243B0EC40080B04F /* ThumbnailGridCell.xib */; };
+		FBB63110243B0EC50080B04F /* ToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63103243B0EC40080B04F /* ToolView.swift */; };
+		FBB63111243B0EC50080B04F /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63104243B0EC50080B04F /* SearchViewCell.swift */; };
+		FBB63112243B0EC50080B04F /* ThumbnailGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63105243B0EC50080B04F /* ThumbnailGridCell.swift */; };
+		FBB63113243B0EC50080B04F /* ToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB63106243B0EC50080B04F /* ToolView.xib */; };
+		FBB63115243B108D0080B04F /* ImageStampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63114243B108D0080B04F /* ImageStampAnnotation.swift */; };
+		FD455F63920013C5337F6BC9 /* Pods_pdf_view_edit_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA58CB903A0BC6223F1740 /* Pods_pdf_view_edit_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +67,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02557A9D5BD710C2CD228FDF /* Pods-pdf-view-edit-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdf-view-edit-swift.debug.xcconfig"; path = "Target Support Files/Pods-pdf-view-edit-swift/Pods-pdf-view-edit-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		19E201D10C18C41C26016296 /* Pods-pdf-view-edit-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdf-view-edit-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-pdf-view-edit-swiftTests/Pods-pdf-view-edit-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		623F548B331E5172A9A91373 /* Pods_pdf_view_edit_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdf_view_edit_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADB853840C9A97D5B7FE809 /* Pods-pdf-view-edit-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdf-view-edit-swift.release.xcconfig"; path = "Target Support Files/Pods-pdf-view-edit-swift/Pods-pdf-view-edit-swift.release.xcconfig"; sourceTree = "<group>"; };
+		7BF637E364A4ECABB832BE87 /* Pods-pdf-view-edit-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdf-view-edit-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-pdf-view-edit-swiftTests/Pods-pdf-view-edit-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFDA58CB903A0BC6223F1740 /* Pods_pdf_view_edit_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdf_view_edit_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2B56BA243AC20A0038CB41 /* pdf-view-edit-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pdf-view-edit-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2B56BD243AC20A0038CB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2B56BF243AC20A0038CB41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +84,44 @@
 		FB2B56D0243AC20B0038CB41 /* pdf-view-edit-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pdf-view-edit-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2B56D4243AC20B0038CB41 /* pdf_view_edit_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdf_view_edit_swiftTests.swift; sourceTree = "<group>"; };
 		FB2B56D6243AC20B0038CB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB630B4243AE2E90080B04F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FBB630B5243AE2E90080B04F /* APISuccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISuccess.swift; sourceTree = "<group>"; };
+		FBB630B6243AE2E90080B04F /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FBB630BD243AE35D0080B04F /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		FBB630BF243AE3630080B04F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FBB630C2243AE39A0080B04F /* GSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextField.swift; sourceTree = "<group>"; };
+		FBB630C3243AE39A0080B04F /* GSImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSImageView.swift; sourceTree = "<group>"; };
+		FBB630C4243AE39A0080B04F /* DismissButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		FBB630C5243AE39A0080B04F /* SGSnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGSnackBar.swift; sourceTree = "<group>"; };
+		FBB630C6243AE39B0080B04F /* GSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSView.swift; sourceTree = "<group>"; };
+		FBB630C7243AE39B0080B04F /* BXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXButton.swift; sourceTree = "<group>"; };
+		FBB630C8243AE39B0080B04F /* DFSafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFSafariViewController.swift; sourceTree = "<group>"; };
+		FBB630D1243AE3C70080B04F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		FBB630D2243AE3C70080B04F /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		FBB630D3243AE3C70080B04F /* CAGradientLayer +Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer +Extensions.swift"; sourceTree = "<group>"; };
+		FBB630D5243AE3C70080B04F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		FBB630D6243AE3C70080B04F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FBB630DE243AEF8A0080B04F /* pdfEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfEncoding.swift; sourceTree = "<group>"; };
+		FBB630E3243AF28B0080B04F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FBB630E6243AF2B40080B04F /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		FBB630E8243AF2BF0080B04F /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		FBB630EB243AF5F30080B04F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FBB630EE243AFA950080B04F /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FBB630EF243AFA950080B04F /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		FBB630F6243B0C720080B04F /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		FBB630FA243B0EC30080B04F /* SearchViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewCell.xib; sourceTree = "<group>"; };
+		FBB630FB243B0EC30080B04F /* OulineTableviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OulineTableviewController.swift; sourceTree = "<group>"; };
+		FBB630FC243B0EC30080B04F /* OulineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OulineTableViewCell.swift; sourceTree = "<group>"; };
+		FBB630FE243B0EC30080B04F /* OulineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OulineTableViewCell.xib; sourceTree = "<group>"; };
+		FBB630FF243B0EC40080B04F /* OulineTableviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OulineTableviewController.xib; sourceTree = "<group>"; };
+		FBB63100243B0EC40080B04F /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		FBB63101243B0EC40080B04F /* ThumbnailGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailGridViewController.swift; sourceTree = "<group>"; };
+		FBB63102243B0EC40080B04F /* ThumbnailGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailGridCell.xib; sourceTree = "<group>"; };
+		FBB63103243B0EC40080B04F /* ToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolView.swift; sourceTree = "<group>"; };
+		FBB63104243B0EC50080B04F /* SearchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		FBB63105243B0EC50080B04F /* ThumbnailGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailGridCell.swift; sourceTree = "<group>"; };
+		FBB63106243B0EC50080B04F /* ToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolView.xib; sourceTree = "<group>"; };
+		FBB63114243B108D0080B04F /* ImageStampAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD455F63920013C5337F6BC9 /* Pods_pdf_view_edit_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +137,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217A437C76342F28A388ADF1 /* Pods_pdf_view_edit_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8A7352C2D9D87A5FC0EB6D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA58CB903A0BC6223F1740 /* Pods_pdf_view_edit_swift.framework */,
+				623F548B331E5172A9A91373 /* Pods_pdf_view_edit_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BA5765C66A3BAD05FFD003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02557A9D5BD710C2CD228FDF /* Pods-pdf-view-edit-swift.debug.xcconfig */,
+				7ADB853840C9A97D5B7FE809 /* Pods-pdf-view-edit-swift.release.xcconfig */,
+				19E201D10C18C41C26016296 /* Pods-pdf-view-edit-swiftTests.debug.xcconfig */,
+				7BF637E364A4ECABB832BE87 /* Pods-pdf-view-edit-swiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB2B56B1243AC2090038CB41 = {
 			isa = PBXGroup;
 			children = (
 				FB2B56BC243AC20A0038CB41 /* pdf-view-edit-swift */,
 				FB2B56D3243AC20B0038CB41 /* pdf-view-edit-swiftTests */,
 				FB2B56BB243AC20A0038CB41 /* Products */,
+				E4BA5765C66A3BAD05FFD003 /* Pods */,
+				C8A7352C2D9D87A5FC0EB6D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +187,16 @@
 		FB2B56BC243AC20A0038CB41 /* pdf-view-edit-swift */ = {
 			isa = PBXGroup;
 			children = (
-				FB2B56BD243AC20A0038CB41 /* AppDelegate.swift */,
-				FB2B56BF243AC20A0038CB41 /* SceneDelegate.swift */,
-				FB2B56C1243AC20A0038CB41 /* ViewController.swift */,
-				FB2B56C3243AC20A0038CB41 /* Main.storyboard */,
+				FBB630E5243AF2A60080B04F /* Services */,
+				FBB630DD243AEF6D0080B04F /* Models */,
+				FBB630EA243AF57C0080B04F /* interfaces */,
+				FBB630BB243AE3350080B04F /* Base */,
+				FBB630BA243AE2F50080B04F /* Networking */,
+				FBB630D0243AE3B90080B04F /* Extensions */,
+				FBB630C1243AE3840080B04F /* UIHelpers */,
+				FBB630E0243AF2490080B04F /* StoryBoards */,
 				FB2B56C6243AC20B0038CB41 /* Assets.xcassets */,
-				FB2B56C8243AC20B0038CB41 /* LaunchScreen.storyboard */,
+				FBB630E1243AF2600080B04F /* Apps */,
 				FB2B56CB243AC20B0038CB41 /* Info.plist */,
 			);
 			path = "pdf-view-edit-swift";
@@ -99,6 +211,152 @@
 			path = "pdf-view-edit-swiftTests";
 			sourceTree = "<group>";
 		};
+		FBB630BA243AE2F50080B04F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630BD243AE35D0080B04F /* Reach.swift */,
+				FBB630B6243AE2E90080B04F /* APIError.swift */,
+				FBB630B4243AE2E90080B04F /* APIManager.swift */,
+				FBB630B5243AE2E90080B04F /* APISuccess.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FBB630BB243AE3350080B04F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B56C1243AC20A0038CB41 /* ViewController.swift */,
+				FBB630BF243AE3630080B04F /* BaseViewController.swift */,
+				FBB630BC243AE3460080B04F /* AppDelegate */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FBB630BC243AE3460080B04F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B56BD243AC20A0038CB41 /* AppDelegate.swift */,
+				FB2B56BF243AC20A0038CB41 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FBB630C1243AE3840080B04F /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630C7243AE39B0080B04F /* BXButton.swift */,
+				FBB630C8243AE39B0080B04F /* DFSafariViewController.swift */,
+				FBB630C4243AE39A0080B04F /* DismissButton.swift */,
+				FBB630C3243AE39A0080B04F /* GSImageView.swift */,
+				FBB630C2243AE39A0080B04F /* GSTextField.swift */,
+				FBB630C6243AE39B0080B04F /* GSView.swift */,
+				FBB630C5243AE39A0080B04F /* SGSnackBar.swift */,
+				FBB63114243B108D0080B04F /* ImageStampAnnotation.swift */,
+			);
+			path = UIHelpers;
+			sourceTree = "<group>";
+		};
+		FBB630D0243AE3B90080B04F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630D3243AE3C70080B04F /* CAGradientLayer +Extensions.swift */,
+				FBB630D5243AE3C70080B04F /* String+Extension.swift */,
+				FBB630D1243AE3C70080B04F /* UIColor+Extensions.swift */,
+				FBB630D2243AE3C70080B04F /* UINavigationController+Extensions.swift */,
+				FBB630D6243AE3C70080B04F /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBB630DD243AEF6D0080B04F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630DE243AEF8A0080B04F /* pdfEncoding.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBB630E0243AF2490080B04F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B56C3243AC20A0038CB41 /* Main.storyboard */,
+				FB2B56C8243AC20B0038CB41 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		FBB630E1243AF2600080B04F /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630F4243B0C420080B04F /* PDFViewer */,
+				FBB630E2243AF26C0080B04F /* Home */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		FBB630E2243AF26C0080B04F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630ED243AFA7B0080B04F /* Cell */,
+				FBB630E3243AF28B0080B04F /* HomeViewController.swift */,
+				FBB630EB243AF5F30080B04F /* ViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FBB630E5243AF2A60080B04F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630E6243AF2B40080B04F /* AppServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FBB630EA243AF57C0080B04F /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630E8243AF2BF0080B04F /* ServiceProtocol.swift */,
+			);
+			path = interfaces;
+			sourceTree = "<group>";
+		};
+		FBB630ED243AFA7B0080B04F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630EE243AFA950080B04F /* HomeCell.swift */,
+				FBB630EF243AFA950080B04F /* HomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FBB630F4243B0C420080B04F /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630F5243B0C4E0080B04F /* View */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		FBB630F5243B0C4E0080B04F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBB630F6243B0C720080B04F /* PDFViewController.swift */,
+				FBB630FC243B0EC30080B04F /* OulineTableViewCell.swift */,
+				FBB630FE243B0EC30080B04F /* OulineTableViewCell.xib */,
+				FBB630FB243B0EC30080B04F /* OulineTableviewController.swift */,
+				FBB630FF243B0EC40080B04F /* OulineTableviewController.xib */,
+				FBB63100243B0EC40080B04F /* SearchTableViewController.swift */,
+				FBB63104243B0EC50080B04F /* SearchViewCell.swift */,
+				FBB630FA243B0EC30080B04F /* SearchViewCell.xib */,
+				FBB63105243B0EC50080B04F /* ThumbnailGridCell.swift */,
+				FBB63102243B0EC40080B04F /* ThumbnailGridCell.xib */,
+				FBB63101243B0EC40080B04F /* ThumbnailGridViewController.swift */,
+				FBB63103243B0EC40080B04F /* ToolView.swift */,
+				FBB63106243B0EC50080B04F /* ToolView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +364,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2B56D9243AC20B0038CB41 /* Build configuration list for PBXNativeTarget "pdf-view-edit-swift" */;
 			buildPhases = (
+				367E10734F10049C9C152CB3 /* [CP] Check Pods Manifest.lock */,
 				FB2B56B6243AC20A0038CB41 /* Sources */,
 				FB2B56B7243AC20A0038CB41 /* Frameworks */,
 				FB2B56B8243AC20A0038CB41 /* Resources */,
@@ -123,6 +382,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2B56DC243AC20B0038CB41 /* Build configuration list for PBXNativeTarget "pdf-view-edit-swiftTests" */;
 			buildPhases = (
+				2EAF3EC60DA0C215687A5AE6 /* [CP] Check Pods Manifest.lock */,
 				FB2B56CC243AC20B0038CB41 /* Sources */,
 				FB2B56CD243AC20B0038CB41 /* Frameworks */,
 				FB2B56CE243AC20B0038CB41 /* Resources */,
@@ -180,8 +440,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB6310F243B0EC50080B04F /* ThumbnailGridCell.xib in Resources */,
+				FBB63113243B0EC50080B04F /* ToolView.xib in Resources */,
+				FBB63107243B0EC50080B04F /* SearchViewCell.xib in Resources */,
+				FBB6310B243B0EC50080B04F /* OulineTableViewCell.xib in Resources */,
+				FBB6310C243B0EC50080B04F /* OulineTableviewController.xib in Resources */,
 				FB2B56CA243AC20B0038CB41 /* LaunchScreen.storyboard in Resources */,
 				FB2B56C7243AC20B0038CB41 /* Assets.xcassets in Resources */,
+				FBB630F1243AFA950080B04F /* HomeCell.xib in Resources */,
 				FB2B56C5243AC20A0038CB41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +461,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EAF3EC60DA0C215687A5AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdf-view-edit-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		367E10734F10049C9C152CB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdf-view-edit-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB2B56B6243AC20A0038CB41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB630C9243AE39B0080B04F /* GSTextField.swift in Sources */,
+				FBB63111243B0EC50080B04F /* SearchViewCell.swift in Sources */,
+				FBB630CB243AE39B0080B04F /* DismissButton.swift in Sources */,
+				FBB630B7243AE2E90080B04F /* APIManager.swift in Sources */,
+				FBB630B8243AE2E90080B04F /* APISuccess.swift in Sources */,
+				FBB630D8243AE3C80080B04F /* UINavigationController+Extensions.swift in Sources */,
+				FBB630EC243AF5F30080B04F /* ViewModel.swift in Sources */,
+				FBB63108243B0EC50080B04F /* OulineTableviewController.swift in Sources */,
+				FBB630F0243AFA950080B04F /* HomeCell.swift in Sources */,
+				FBB63109243B0EC50080B04F /* OulineTableViewCell.swift in Sources */,
+				FBB630E9243AF2BF0080B04F /* ServiceProtocol.swift in Sources */,
+				FBB63115243B108D0080B04F /* ImageStampAnnotation.swift in Sources */,
+				FBB63110243B0EC50080B04F /* ToolView.swift in Sources */,
+				FBB630E4243AF28B0080B04F /* HomeViewController.swift in Sources */,
 				FB2B56C2243AC20A0038CB41 /* ViewController.swift in Sources */,
+				FBB630CA243AE39B0080B04F /* GSImageView.swift in Sources */,
+				FBB630E7243AF2B40080B04F /* AppServices.swift in Sources */,
+				FBB630DB243AE3C80080B04F /* String+Extension.swift in Sources */,
+				FBB630CF243AE39B0080B04F /* DFSafariViewController.swift in Sources */,
+				FBB630CC243AE39B0080B04F /* SGSnackBar.swift in Sources */,
 				FB2B56BE243AC20A0038CB41 /* AppDelegate.swift in Sources */,
+				FBB630BE243AE35D0080B04F /* Reach.swift in Sources */,
+				FBB630CD243AE39B0080B04F /* GSView.swift in Sources */,
+				FBB630F7243B0C720080B04F /* PDFViewController.swift in Sources */,
+				FBB6310D243B0EC50080B04F /* SearchTableViewController.swift in Sources */,
+				FBB630D9243AE3C80080B04F /* CAGradientLayer +Extensions.swift in Sources */,
+				FBB630D7243AE3C80080B04F /* UIColor+Extensions.swift in Sources */,
+				FBB63112243B0EC50080B04F /* ThumbnailGridCell.swift in Sources */,
+				FBB630C0243AE3630080B04F /* BaseViewController.swift in Sources */,
+				FBB630DF243AEF8A0080B04F /* pdfEncoding.swift in Sources */,
 				FB2B56C0243AC20A0038CB41 /* SceneDelegate.swift in Sources */,
+				FBB630DC243AE3C80080B04F /* UIViewController+Extension.swift in Sources */,
+				FBB6310E243B0EC50080B04F /* ThumbnailGridViewController.swift in Sources */,
+				FBB630B9243AE2E90080B04F /* APIError.swift in Sources */,
+				FBB630CE243AE39B0080B04F /* BXButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +705,7 @@
 		};
 		FB2B56DA243AC20B0038CB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02557A9D5BD710C2CD228FDF /* Pods-pdf-view-edit-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +724,7 @@
 		};
 		FB2B56DB243AC20B0038CB41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADB853840C9A97D5B7FE809 /* Pods-pdf-view-edit-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +743,7 @@
 		};
 		FB2B56DD243AC20B0038CB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E201D10C18C41C26016296 /* Pods-pdf-view-edit-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +766,7 @@
 		};
 		FB2B56DE243AC20B0038CB41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF637E364A4ECABB832BE87 /* Pods-pdf-view-edit-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

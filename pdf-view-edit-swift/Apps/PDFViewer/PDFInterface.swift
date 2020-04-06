@@ -7,3 +7,6 @@
 //
 
 import Foundation
+protocol PDFfilesInterface {
+    func loadThePDFFile(_ pdfUrl: String)
+}

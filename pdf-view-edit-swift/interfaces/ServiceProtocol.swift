@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+ 
+ protocol ServiceProtocol {
+    func getPDFlist(_ completion: @escaping([filesData]) -> (), failure: @escaping(String) -> ())
+ }
