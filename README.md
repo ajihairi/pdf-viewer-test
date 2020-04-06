@@ -11,4 +11,4 @@
 * drag image inside pdf file current page
 
 ** App preview **
-![til](.Resource/ezgif.com-gif-maker.gif)
+![](ezgif.com-gif-maker.gif)
